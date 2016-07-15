@@ -1,6 +1,11 @@
-<html>
-	<body>
-	
+<!DOCTYPE html>
+<html ng-app="app1">
+	<body ng-controller="mainCtrl">
+		<textarea name="name" rows="8" cols="40" ng-model="thisText"></textarea>
+		<div class="reflection">
+			<!-- <h2>{{test}}</h2> -->
+			<h2>{{thisText}}</h2>
+			
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
 		<script src="app.js"></script>
 		<script src="controller.js"></script>
